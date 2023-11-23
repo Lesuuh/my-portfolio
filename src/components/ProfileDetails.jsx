@@ -3,6 +3,7 @@ import { AboutMe } from "./AboutMe";
 import { Resume } from "./Resume";
 import { Buttons } from "./Buttons";
 import { createContext } from "react";
+import { Work } from "./Work";
 
 export const Context = createContext();
 
@@ -15,6 +16,7 @@ export const ProfileDetails = () => {
         <Buttons activeTab={activeTab} setActiveTab={setActiveTab} />
         {activeTab === "home" && <AboutMe />}
         {activeTab === "resume" && <Resume />}
+        {activeTab === "work" && <Work/>}
       </div>
     </Context.Provider>
   );

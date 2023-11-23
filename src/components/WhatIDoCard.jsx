@@ -1,4 +1,6 @@
-import { FaAppStore, FaChalkboardTeacher, FaCode } from "react-icons/fa";
+import { FaCode } from "react-icons/fa";
+import { MdOutlineWebStories } from "react-icons/md";
+import { VscDebug } from "react-icons/vsc";
 
 export const WhatIDoCard = () => {
   const cardData = [
@@ -6,21 +8,21 @@ export const WhatIDoCard = () => {
       id: 1,
       icon: <FaCode />,
       title: "Web Development",
-      text: "As a developer, I find myself most captivated by the power and flexibility of NEXT.js. I'm always eager to dive into new projects that leverage NEXT.js and discover innovative ways to create fast, scalable, and user-friendly applications.",
+      text: "In my journey as a developer, I'm enthralled by the immense capabilities and adaptability that React brings to the table. I'm always eager to embark on new projects that leverage React, exploring inventive approaches to build high-performance, scalable, and user-friendly applications.`",
     },
     {
       id: 2,
-      icon: <FaAppStore />,
-      title: "App Development",
-      text: "As a developer, I find myself most captivated by the power and flexibility of NEXT.js. I'm always eager to dive into new projects that leverage NEXT.js and discover innovative ways to create fast, scalable, and user-friendly applications.",
+      icon: <VscDebug />,
+      title: "Testing and Debugging:",
+      text: "As a frontend web developer, I ensure application stability and seamless user experiences through meticulous testing, precise debugging, and optimizing performance across browsers and devices. My commitment is to deliver robust, error-free applications.",
       changebg: true,
       iconColor: true,
     },
     {
       id: 3,
-      icon: <FaChalkboardTeacher />,
-      title: "Mentorship",
-      text: "As a developer, I find myself most captivated by the power and flexibility of NEXT.js. I'm always eager to dive into new projects that leverage NEXT.js and discover innovative ways to create fast, scalable, and user-friendly applications.",
+      icon: <MdOutlineWebStories />,
+      title: "Responsive Design",
+      text: "I prioritize responsive design principles to optimize websites and applications for diverse devices, ensuring a seamless user experience across various screen sizes. This approach guarantees that the content adapts fluidly, providing accessibility and functionality across the spectrum of devices.",
     },
   ];
   return (

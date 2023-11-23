@@ -9,7 +9,12 @@ export const Skills = () => {
     "Figma",
   ];
 
-  const softSkillsData = ["Time Management", "Mentorship", "Communication"];
+  const softSkillsData = [
+    "Time Management",
+    "Mentorship",
+    "Communication",
+    "Flexibility",
+  ];
   return (
     <div className="ralewayfont mt-5 text-base font-medium bg-skillsBg w-full py-10 px-3 gap-5 items-start grid lg:grid-cols-2">
       <div>
