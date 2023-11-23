@@ -90,7 +90,7 @@ export const ProfileCard = () => {
           </div>
         </div>
         <button
-          onClick={alert("Resume currently not available")}
+          onClick={()=> alert("Resume currently not available")}
           className="btn-download rounded-xl py-2 font-bold flex items-center justify-center gap-2 text-white"
         >
           <MdOutlineFileDownload className="text-2xl" />
