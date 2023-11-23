@@ -7,7 +7,7 @@ import { createContext } from "react";
 export const Context = createContext();
 
 export const ProfileDetails = () => {
-  const [activeTab, setActiveTab] = useState("resume");
+  const [activeTab, setActiveTab] = useState("home");
 
   return (
     <Context.Provider value={{activeTab, setActiveTab}}>

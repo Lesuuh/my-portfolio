@@ -6,7 +6,8 @@ import {
   FaRegEnvelopeOpen,
   FaTwitter,
 } from "react-icons/fa";
-import profilePicture from "/images/profile picture.png";
+// import profilePicture from "/images/profile picture.png";
+import profilePicture from "/images/IMG_7026.png"
 import { MdOutlineFileDownload, MdOutlinePhoneIphone } from "react-icons/md";
 // import { BrowserRouter as Router } from "react-router-dom";
 // import { Link } from "react-router-dom";
@@ -19,14 +20,14 @@ export const ProfileCard = () => {
   return (
 
       <div className="max-w-[300px] w-full flex-col flex items-center justify-between bg-white mt-[150px] px-[16px] py-5 mb-16 rounded-xl">
-        <div>
+        <div className="w-[200px]  ">
           <img
             src={profilePicture}
             alt="profile-picture"
-            className="-mt-[50%]"
+            className="-mt-[50%] w-full h-[200px] rounded-xl bg-contain bg-center"
           />
         </div>
-        <h3 className=" ralewayfont text-xl md:text-xl lg:text-2xl font-bold">
+        <h3 className=" ralewayfont mt-2 text-xl md:text-xl lg:text-2xl font-bold">
           Ueh-Kabari Lesuuh
         </h3>
         <p className="ralewayfont text-grayTextColor text-base font-medium">
