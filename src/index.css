@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@200;300;400;500;600;700&family=Raleway:wght@200;300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+}
+
+.custom-font {
+  font-family: "Pacifico", cursive;
+}
+
+.text-gradient {
+  background: -webkit-linear-gradient(180deg, #ed250a  0%, #ff9c1a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ralewayfont{
+  font-family: 'Raleway', sans-serif;
+}
+
+.btn-download{
+  background: -webkit-linear-gradient(180deg, #ed250a  0%, #ff9c1a 100%);
+}
