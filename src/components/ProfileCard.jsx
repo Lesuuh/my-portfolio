@@ -20,11 +20,11 @@ export const ProfileCard = () => {
   return (
 
       <div className="max-w-[300px] w-full flex-col flex items-center justify-between bg-white mt-[150px] px-[16px] py-5 mb-16 rounded-xl">
-        <div className="w-[200px]  ">
+        <div className=" -mt-[50%] w-[200px] h-[200px] ">
           <img
             src={profilePicture}
             alt="profile-picture"
-            className="-mt-[50%] w-full h-[200px] rounded-xl bg-contain bg-center"
+            className=" w-full h-full rounded-xl object-cover bg-center"
           />
         </div>
         <h3 className=" ralewayfont mt-2 text-xl md:text-xl lg:text-2xl font-bold">

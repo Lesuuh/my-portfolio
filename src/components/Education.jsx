@@ -11,7 +11,7 @@ export const Education = () => {
         },
         {
             duration: "2021 - 2022",
-            course: "Frontend Enginering",
+            course: "Frontend Engineering",
             school: "Harvoxx Tech Hub, Portharcourt",
             changeBg : true,
 
