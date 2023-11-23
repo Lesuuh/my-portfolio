@@ -1,14 +1,12 @@
-import { ProfileCard } from "./ProfileCard"
+import { ProfileCard } from "./ProfileCard";
+import { ProfileDetails } from "./ProfileDetails";
 
 export const Profile = () => {
   return (
-    <div className="grid grid-cols-1  px-5">
-        <div className="left-wrapper ">
-            <ProfileCard/>
-        </div>
-        <div className="right-wrapper bg-white w-full h-full">
+    <div className="flex flex-col md:gap-10 md:items-start md:justify-start md:flex-row px-5">
+      <ProfileCard />
 
-        </div>
+      <ProfileDetails />
     </div>
-  )
-}
+  );
+};

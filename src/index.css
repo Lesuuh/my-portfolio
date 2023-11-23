@@ -12,15 +12,37 @@ h1 {
 }
 
 .text-gradient {
-  background: -webkit-linear-gradient(180deg, #ed250a  0%, #ff9c1a 100%);
+  background: -webkit-linear-gradient(180deg, #ed250a 0%, #ff9c1a 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.ralewayfont{
-  font-family: 'Raleway', sans-serif;
+.ralewayfont {
+  font-family: "Raleway", sans-serif;
+}
+.poppinsfont {
+  font-family: "Poppins", sans-serif;
 }
 
-.btn-download{
-  background: -webkit-linear-gradient(180deg, #ed250a  0%, #ff9c1a 100%);
+.btn-download {
+  background: -webkit-linear-gradient(180deg, #ed250a 0%, #ff9c1a 100%);
+}
+
+.btn.active  {
+  background: -webkit-linear-gradient(180deg, #ed250a 0%, #ff9c1a 100%);
+
+
+}
+
+.btn.active span, .btn.active p{
+  color: white;
+}
+
+.btn:hover {
+  background: -webkit-linear-gradient(180deg, #ed250a 0%, #ff9c1a 100%);
+}
+
+.btn:hover span,
+.btn:hover p {
+  color: #fff;
 }

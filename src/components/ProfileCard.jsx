@@ -32,7 +32,7 @@ export const ProfileCard = () => {
         <p className="ralewayfont text-grayTextColor text-base font-medium">
           Frontend Developer
         </p>
-        <div className="social-links flex flex-row justify-between items-center w-full px-5 py-5">
+        <div className="social-links flex gap-2 flex-row justify-between items-center w-full px-5 py-5">
           <a
             href={facebook}
             target="_blank"
