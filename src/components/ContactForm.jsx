@@ -6,7 +6,7 @@ export const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(formData);
-    // alert("Thank you");
+    alert("Thank you");
   };
 
   const handleChange = (e) => {
@@ -21,7 +21,7 @@ export const ContactForm = () => {
   return (
     <div>
       <form name="contact" onSubmit={handleSubmit} className="my-5">
-        <input type="hidden" name="form-name" value="contact" />
+        <input type="hidden" name="contact" value="contact" />
         <div>
           <label htmlFor="name" className="font-bold poppinsfonts ">
             Name
