@@ -3,8 +3,8 @@ import { useState } from "react";
 export const ContactForm = () => {
   const [formData, setFormData] = useState({});
 
-  const handleSubmit = () => {
-    // e.preventDefault();
+  const handleSubmit = (e) => {
+    e.preventDefault();
     console.log(formData);
     // alert("Thank you");
   };
