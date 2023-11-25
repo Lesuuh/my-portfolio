@@ -4,8 +4,8 @@ export const ContactForm = () => {
   const [formData, setFormData] = useState({});
   const [success, setSuccess] = useState(false);
 
-  const handleSubmit = () => {
-    // e.preventDefault();
+  const handleSubmit = (e) => {
+    e.preventDefault();
     console.log(formData);
     // alert("Thank you");
     setTimeout(() => {
