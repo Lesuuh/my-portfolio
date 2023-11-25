@@ -17,7 +17,12 @@ export default {
         cardBg2 : "#FFEED9",
         red: "#ed250a",
         yellow: "#ff9c1a",
-        skillsBg: "#F8FBFB"
+        skillsBg: "#F8FBFB",
+
+        bgDark: "#282a36",
+        textColorDark : "fff"
+
+
 
 
       }

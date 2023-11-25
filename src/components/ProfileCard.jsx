@@ -12,13 +12,17 @@ import { MdOutlineFileDownload, MdOutlinePhoneIphone } from "react-icons/md";
 // import { BrowserRouter as Router } from "react-router-dom";
 // import { Link } from "react-router-dom";
 
-export const ProfileCard = () => {
+export const ProfileCard = ({ darkTheme }) => {
   const githubRepo = "https://github.com/Lesuuh";
   const facebook = "https://facebook.com/lesuuh.uehkabari";
   const linkedin = "https://www.linkedin.com/in/lesuuh/";
   const twitter = "https://twitter.com/UKLesuuh";
   return (
-    <div className="max-w-[300px] w-full flex-col flex items-center justify-between bg-white mt-[150px] px-[16px] py-5 mb-16 rounded-xl">
+    <div
+      className={` ${
+        darkTheme ? "bg-bgDark" : "bg-white"
+      }  max-w-[300px] w-full flex-col flex items-center justify-between  mt-[150px] px-[16px] py-5 mb-16 rounded-xl`}
+    >
       <div className=" -mt-[50%] w-[200px] h-[200px] ">
         <img
           src={profilePicture}
@@ -26,7 +30,11 @@ export const ProfileCard = () => {
           className=" w-full h-full rounded-xl object-cover bg-center"
         />
       </div>
-      <h3 className=" ralewayfont mt-2 text-xl md:text-xl lg:text-2xl font-bold">
+      <h3
+        className={`ralewayfont ${
+          darkTheme ? "text-white" : "text-black"
+        } mt-2 text-xl md:text-xl lg:text-2xl font-bold`}
+      >
         Ueh-Kabari Lesuuh
       </h3>
       <p className="ralewayfont text-grayTextColor text-base font-medium">
@@ -90,7 +98,7 @@ export const ProfileCard = () => {
           </div>
         </div>
         <button
-          onClick={()=> alert("Resume currently not available")}
+          onClick={() => alert("Resume currently not available")}
           className="btn-download rounded-xl py-2 font-bold flex items-center justify-center gap-2 text-white"
         >
           <MdOutlineFileDownload className="text-2xl" />
