@@ -20,8 +20,8 @@ export const ContactForm = () => {
   };
   return (
     <div>
-      <form name="contact" onSubmit={handleSubmit} className="my-5">
-        <input type="hidden" name="contact" value="contact" />
+      <form method="POST" name="contact" onSubmit={handleSubmit} className="my-5">
+        <input type="hidden" name="form-name" value="contact" />
         <div>
           <label htmlFor="name" className="font-bold poppinsfonts ">
             Name
