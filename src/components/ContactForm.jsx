@@ -35,7 +35,7 @@ export const ContactForm = () => {
       <form
         method="POST"
         name="contact"
-        // action="/success"
+        action=""
         onSubmit={handleSubmit}
         className="my-5"
       >
