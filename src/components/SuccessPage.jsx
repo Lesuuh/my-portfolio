@@ -1,10 +1,1 @@
-
-
-export const SuccessPage = () => {
-  return (
-    <div>
-      
-
-    </div>
-  )
-}
+// we be created later

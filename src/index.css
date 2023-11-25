@@ -13,6 +13,7 @@ h1 {
 
 .text-gradient {
   background: -webkit-linear-gradient(180deg, #ed250a 0%, #ff9c1a 100%);
+  /* background: -webkit-linear-gradient(180deg,  #2980b9  0%, #3498db 100%); */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -25,21 +26,23 @@ h1 {
 }
 
 .btn-download {
+  /* background: -webkit-linear-gradient(180deg,  #2980b9  0%, #3498db 100%); */
   background: -webkit-linear-gradient(180deg, #ed250a 0%, #ff9c1a 100%);
 }
 
-.btn.active  {
+.btn.active {
   background: -webkit-linear-gradient(180deg, #ed250a 0%, #ff9c1a 100%);
-
-
+  /* background: -webkit-linear-gradient(180deg,  #2980b9  0%, #3498db 100%); */
 }
 
-.btn.active span, .btn.active p{
+.btn.active span,
+.btn.active p {
   color: white;
 }
 
 .btn:hover {
   background: -webkit-linear-gradient(180deg, #ed250a 0%, #ff9c1a 100%);
+  /* background: -webkit-linear-gradient(180deg,  #2980b9  0%, #3498db 100%); */
 }
 
 .btn:hover span,
