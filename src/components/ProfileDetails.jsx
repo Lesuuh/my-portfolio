@@ -9,7 +9,7 @@ import { Contact } from "./Contact";
 export const Context = createContext();
 
 export const ProfileDetails = () => {
-  const [activeTab, setActiveTab] = useState("home");
+  const [activeTab, setActiveTab] = useState("contact");
 
   return (
     <Context.Provider value={{activeTab, setActiveTab}}>

@@ -4,7 +4,7 @@ export const Navbar = () => {
   return (
     <div className="flex items-center justify-between px-2">
       <p className="poppinsfont font-bold flex items-center">
-        <SiExpertsexchange className={`text-white`} />
+        <SiExpertsexchange className="text-red" />
         <span></span>
       </p>
 

@@ -2,31 +2,50 @@ import { useState } from "react";
 
 export const ContactForm = () => {
   const [formData, setFormData] = useState({});
+  const [success, setSuccess] = useState(false);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = () => {
     // e.preventDefault();
     console.log(formData);
     // alert("Thank you");
+    setTimeout(() => {
+      setSuccess(true);
+    }, 1000);
+    // setFormData({});
+    setTimeout(() => {
+      setSuccess(false);
+    }, 5000);
   };
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData((prevData) => {
-      return {
-        ...prevData,
-        [name]: value,
-      };
-    });
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }));
   };
+
   return (
     <div>
-      <form method="POST" name="contact" action="/success" onSubmit={handleSubmit} className="my-5">
+      {success && (
+        <p className="fixed top-5 ml-2 left-5 text-sm border px-3 py-2 rounded-xl text-white bg-black border-red font-bold">
+          Form Submitted
+        </p>
+      )}
+      <form
+        method="POST"
+        name="contact"
+        // action="/success"
+        onSubmit={handleSubmit}
+        className="my-5"
+      >
         <input type="hidden" name="form-name" value="contact" />
         <div>
           <label htmlFor="name" className="font-bold poppinsfonts ">
             Name
           </label>
           <input
+            required
             type="text"
             onChange={handleChange}
             name="name"
@@ -39,6 +58,7 @@ export const ContactForm = () => {
             Email
           </label>
           <input
+            required
             type="email"
             onChange={handleChange}
             name="email"
@@ -51,6 +71,7 @@ export const ContactForm = () => {
             Message
           </label>
           <input
+            required
             type="text"
             onChange={handleChange}
             name="message"
