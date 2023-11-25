@@ -3,10 +3,10 @@ import { useState } from "react";
 export const ContactForm = () => {
   const [formData, setFormData] = useState({});
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = () => {
+    // e.preventDefault();
     console.log(formData);
-    alert("Thank you");
+    // alert("Thank you");
   };
 
   const handleChange = (e) => {
