@@ -3,12 +3,10 @@ import { WhatIDoCard } from "./WhatIDoCard";
 export const AboutMe = ({ darkTheme }) => {
   return (
     <div
-      className={`${
-        darkTheme ? "bg-bgDark" : "bg-white"
-      } w-full h-full rounded-xl px-5 md:px-16 py-5`}
+      className={`bg-bkg2 text-white w-full h-full rounded-xl px-5 md:px-16 py-5`}
     >
       <h1 className="font-medium text-3xl poppinsfont">About Me</h1>
-      <p className="mt-2 text-black font-medium text-base ralewayfont">
+      <p className="mt-2  font-medium text-base ralewayfont">
         Hello there! Welcome to my portfolio! I am{" "}
         <span className="text-gradient font-bold">Lesuuh</span> I am an
         enthusiastic and adaptable frontend web developer with a strong passion

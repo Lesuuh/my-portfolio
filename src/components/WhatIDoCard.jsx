@@ -32,8 +32,8 @@ export const WhatIDoCard = () => {
           <div
             key={item.id}
             className={`${
-              item.changebg === true ? "bg-cardBg" : "bg-gray"
-            }  flex flex-col md:flex-row flex-wrap gap-2 px-2 md:px-5 py-5 rounded-xl`}
+              item.changebg === true ? "bg-bkg3" : "bg-bkg"
+            } text-white flex flex-col md:flex-row flex-wrap gap-2 px-2 md:px-5 py-5 rounded-xl`}
           >
             <div className="flex flex-row items-center gap-2">
               <span
@@ -45,7 +45,7 @@ export const WhatIDoCard = () => {
               </span>
               <h3 className="text-xl font-bold poppinsfont">{item.title} </h3>
             </div>
-            <p className=" text-black font-medium text-base ralewayfont">
+            <p className=" font-medium text-base ralewayfont">
               {item.text}
             </p>
           </div>

@@ -73,7 +73,7 @@ export const WorkCard = () => {
         return (
           <div
             key={project.id}
-            className="bg-cardBg rounded-xl hover:scale-105 duration-500 ease"
+            className="bg-bkg3 rounded-xl hover:scale-105 duration-500 ease"
           >
             <div className="w-50">
               <img

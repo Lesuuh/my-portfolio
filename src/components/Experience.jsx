@@ -25,7 +25,7 @@ export const Experience = () => {
             <div
               key={item.position}
               className={`${
-                item.changeBg === true ? "bg-cardBg2" : "bg-cardBg"
+                item.changeBg === true ? "bg-bkg" : "bg-bkg3"
               } px-3 py-8 rounded-xl`}
             >
               <small className="text-grayTextColor text-base">

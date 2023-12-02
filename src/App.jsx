@@ -5,7 +5,7 @@ const App = () => {
   return (
     <div
       className={`py-5 px-2 lg:my-5 w-full shadow-sm rounded 
-         bg-gray
+         bg-bkg
          max-w-[350px] md:max-w-[1300px]  mx-auto h-auto`}
     >
       <Navbar />

@@ -32,7 +32,7 @@ export const Buttons = () => {
     },
   ];
   return (
-    <div className="flex flex-row bg-buttonsBg px-2 py-3 rounded-xl md:gap-5 items-center  md:self-end justify-between md:-mt-[100px] md:w-[400px]">
+    <div className="flex flex-row bg-bkg2 px-2 py-3 rounded-xl md:gap-5 items-center  md:self-end justify-between md:-mt-[100px] md:w-[400px]">
       {buttonData.map((btnData) => {
         return (
           <Button

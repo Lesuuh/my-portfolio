@@ -22,10 +22,10 @@ export const Education = () => {
       <h1 className="flex flex-row items-center gap-2 text-2xl font-medium mt-5 mb-3 poppinsfont">
         <HiOutlineAcademicCap  className="text-red"/> Education
       </h1>
-      <div className="flex flex-col gap-5 ralewayfont">
+      <div className="flex flex-col gap-5  ralewayfont">
         {EduData.map((item)=> {
             return (
-                <div key={item.course} className={`${item.changeBg === true ? "bg-cardBg2" : "bg-cardBg"} px-3 py-8 rounded-xl`}>
+                <div key={item.course} className={`${item.changeBg === true ? "bg-bkg3" : "bg-bkg"} px-3 py-8 rounded-xl`}>
                     <small className="text-grayTextColor text-base">{item.duration}</small>
                     <h3 className="font-bold">{item.course}</h3>
                     <h3 className="font-medium">{item.school}</h3>
