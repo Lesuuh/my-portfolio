@@ -7,7 +7,7 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 // import profilePicture from "/images/profile picture.png";
-import profilePicture from "/images/IMG_7026.png";
+import profilePicture from "/images/IMG_7026-min.png";
 import { MdOutlineFileDownload, MdOutlinePhoneIphone } from "react-icons/md";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
