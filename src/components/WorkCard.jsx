@@ -81,6 +81,7 @@ export const WorkCard = () => {
                 alt="tandem-img"
                 sizes={50}
                 className="rounded-xl w-full "
+                loading="lazy"
               />
             </div>
             <div className="px-2 py-5 flex flex-row items-center justify-between">

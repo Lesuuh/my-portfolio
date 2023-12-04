@@ -9,10 +9,10 @@ import {
 // import profilePicture from "/images/profile picture.png";
 import profilePicture from "/images/IMG_7026.png";
 import { MdOutlineFileDownload, MdOutlinePhoneIphone } from "react-icons/md";
-// import { BrowserRouter as Router } from "react-router-dom";
-// import { Link } from "react-router-dom";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
-export const ProfileCard = ({ darkTheme }) => {
+
+export const ProfileCard = ({darkTheme}) => {
   const githubRepo = "https://github.com/Lesuuh";
   const facebook = "https://facebook.com/lesuuh.uehkabari";
   const linkedin = "https://www.linkedin.com/in/lesuuh/";
@@ -24,10 +24,11 @@ export const ProfileCard = ({ darkTheme }) => {
       }  max-w-[300px] w-full flex-col flex items-center justify-between  mt-[150px] px-[16px] py-5 mb-16 rounded-xl`}
     >
       <div className=" -mt-[50%] w-[200px] h-[200px] ">
-        <img
+        <LazyLoadImage
           src={profilePicture}
           alt="profile-picture"
           className=" w-full h-full rounded-xl object-cover bg-center"
+          loading="lazy"
         />
       </div>
       <h3
