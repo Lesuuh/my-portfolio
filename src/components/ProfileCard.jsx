@@ -70,7 +70,7 @@ export const ProfileCard = ({darkTheme}) => {
           rel="noopener noreferrer"
           className="w-[50px] h-[50px]  bg-bkg3 hover:bg-bkg flex justify-center items-center rounded-xl"
         >
-          <FaGithub />
+          <FaGithub className="text-white" />
         </a>
       </div>
 

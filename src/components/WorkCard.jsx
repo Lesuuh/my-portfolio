@@ -1,4 +1,5 @@
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 // import tandemImg from "/images/tandem.png";
 // import legitImg from "/images/legit-kitchen.png";
@@ -76,9 +77,9 @@ export const WorkCard = () => {
             className="bg-bkg3 rounded-xl hover:scale-105 duration-500 ease"
           >
             <div className="w-50">
-              <img
+              <LazyLoadImage
                 src={project.img}
-                alt="tandem-img"
+                alt="projects-images"
                 sizes={50}
                 className="rounded-xl w-full "
                 loading="lazy"

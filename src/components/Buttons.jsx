@@ -1,5 +1,5 @@
 import { FaHome } from "react-icons/fa";
-import { IoMdBriefcase } from "react-icons/io";
+import { GrProjects  } from "react-icons/gr";
 import { IoNewspaperOutline } from "react-icons/io5";
 import { TiContacts } from "react-icons/ti";
 import { Button } from "./Button";
@@ -20,8 +20,8 @@ export const Buttons = () => {
     },
     {
       id: 3,
-      icon: <IoMdBriefcase />,
-      text: "Work",
+      icon: <GrProjects  />,
+      text: "Projects",
       to: "work",
     },
     {
