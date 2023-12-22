@@ -13,7 +13,7 @@ export const Contact = () => {
           <div>
             <h3 className="font-bold">Phone:</h3>
             <p className="font-medium">+2349075605471</p>
-            <p className="font-medium">+2239067252273</p>
+            <p className="font-medium">+2349067252273</p>
           </div>
         </div>
         <div className=" poppinsfont bg-bkg px-3 py-8 gap-3 rounded-xl flex flex-row items-start ">

@@ -3,16 +3,16 @@ import { FaStar } from "react-icons/fa";
 export const Experience = () => {
   const ExpData = [
     {
-      duration: "2021 - 2023",
+      duration: "2022 - 2023",
       position: "Frontend Web Developer",
       company: "Homigon - Harvoxx Tech Hub, Portharcourt",
       changeBg: true,
     },
-    {
-      duration: "2022 - 2023",
-      position: "Chief Technology Officer ",
-      company: "Homigon",
-    },
+    // {
+    //   duration: "2022 - 2023",
+    //   position: "Chief Technology Officer ",
+    //   company: "Homigon",
+    // },
   ];
   return (
     <div>
