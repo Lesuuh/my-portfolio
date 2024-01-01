@@ -65,6 +65,13 @@ export const WorkCard = () => {
       desc: "Built with HTML, CSS, JavaScript",
       github: "https://github.com/Lesuuh/test-homigon",
       link: "https://homigon.harvoxx.com",
+    },{
+      id: 7,
+      img: "/images/moviefreak.png",
+      title: "MovieFreak",
+      desc: "Built with React, Tailwind, HTML",
+      github: "https://github.com/Lesuuh/moviefreak",
+      link: "https://m-freak.netlify.app",
     },
   ];
 
