@@ -34,14 +34,14 @@ export const WorkCard = () => {
       github: "https://github.com/Lesuuh/SJ-portfolio",
       link: "https://sj-portfolio-yt.netlify.app/",
     },
-    {
-      id: 4,
-      img: "/images/todo.png",
-      title: "Todo App",
-      desc: "Built with HTML, CSS, JavaScript",
-      github: "https://github.com/Lesuuh/todo",
-      link: "https://lesuuh.github.io/todo/",
-    },
+    // {
+    //   id: 4,
+    //   img: "/images/todo.png",
+    //   title: "Todo App",
+    //   desc: "Built with HTML, CSS, JavaScript",
+    //   github: "https://github.com/Lesuuh/todo",
+    //   link: "https://lesuuh.github.io/todo/",
+    // },
     {
       id: 5,
       img: "/images/yumeats.png",
@@ -51,7 +51,7 @@ export const WorkCard = () => {
       link: "https://yumeats-yt.netlify.app/",
     },
     {
-      id: 5,
+      id: 6,
       img: "/images/letsbuild.png",
       title: "LetsBuild",
       desc: "Built with HTML, CSS, JavaScript",
@@ -59,14 +59,15 @@ export const WorkCard = () => {
       link: "https://letsbuil.netlify.app/",
     },
     {
-      id: 6,
+      id: 7,
       img: "/images/homigon.png",
       title: "Homigon",
       desc: "Built with HTML, CSS, JavaScript",
       github: "https://github.com/Lesuuh/test-homigon",
       link: "https://homigon.harvoxx.com",
-    },{
-      id: 7,
+    },
+    {
+      id: 8,
       img: "/images/moviefreak.png",
       title: "MovieFreak",
       desc: "Built with React, Tailwind, HTML",
@@ -105,14 +106,13 @@ export const WorkCard = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaGithub className="text-xl" />{" "}
+                  <FaGithub className="text-xl" />
                 </a>
                 <a
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  {" "}
                   <FaExternalLinkAlt className="text-red text-xl" />
                 </a>
               </div>
