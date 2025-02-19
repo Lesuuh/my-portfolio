@@ -74,6 +74,14 @@ export const WorkCard = () => {
       github: "https://github.com/Lesuuh/moviefreak",
       link: "https://m-freak.netlify.app",
     },
+    {
+      id: 9,
+      img: "/images/shop.co.png",
+      title: "Shop.co",
+      desc: "Built with React, Tailwind",
+      github: "https://github.com/Lesuuh/shop.co.git",
+      link: "https://shopnownow.netlify.app/",
+    },
   ];
 
   return (
