@@ -11,6 +11,14 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 export const WorkCard = () => {
   const workData = [
     {
+      id: 9,
+      img: "/images/shop.co.png",
+      title: "Shop.co",
+      desc: "Built with React, Tailwind",
+      github: "https://github.com/Lesuuh/shop.co.git",
+      link: "https://shopnownow.netlify.app/",
+    },
+    {
       id: 1,
       img: "/images/tandem.png",
       title: "Tandem",
@@ -19,12 +27,28 @@ export const WorkCard = () => {
       link: "https://tandemlogistics.netlify.app/",
     },
     {
-      id: 2,
-      img: "/images/legit-kitchen.png",
-      title: "Legit-Kitchen",
+      id: 8,
+      img: "/images/moviefreak.png",
+      title: "MovieFreak",
+      desc: "Built with React, Tailwind, HTML",
+      github: "https://github.com/Lesuuh/moviefreak",
+      link: "https://m-freak.netlify.app",
+    },
+    {
+      id: 4,
+      img: "/images/noacbt.png",
+      title: "NOA cbt platform",
+      desc: "Built with TypeScript, Reactjs, Tailwindcss,",
+      github: "https://github.com/Lesuuh/noa-web",
+      link: "https://noacbt.netlify.app/",
+    },
+    {
+      id: 7,
+      img: "/images/homigon.png",
+      title: "Homigon",
       desc: "Built with HTML, CSS, JavaScript",
-      github: "https://github.com/Lesuuh/legit-kitchen",
-      link: "https://legit-kitchen.netlify.app/",
+      github: "https://github.com/Lesuuh/test-homigon",
+      link: "https://homigon.harvoxx.com",
     },
     {
       id: 3,
@@ -34,14 +58,6 @@ export const WorkCard = () => {
       github: "https://github.com/Lesuuh/SJ-portfolio",
       link: "https://sj-portfolio-yt.netlify.app/",
     },
-    // {
-    //   id: 4,
-    //   img: "/images/todo.png",
-    //   title: "Todo App",
-    //   desc: "Built with HTML, CSS, JavaScript",
-    //   github: "https://github.com/Lesuuh/todo",
-    //   link: "https://lesuuh.github.io/todo/",
-    // },
     {
       id: 5,
       img: "/images/yumeats.png",
@@ -59,28 +75,12 @@ export const WorkCard = () => {
       link: "https://letsbuil.netlify.app/",
     },
     {
-      id: 7,
-      img: "/images/homigon.png",
-      title: "Homigon",
+      id: 2,
+      img: "/images/legit-kitchen.png",
+      title: "Legit-Kitchen",
       desc: "Built with HTML, CSS, JavaScript",
-      github: "https://github.com/Lesuuh/test-homigon",
-      link: "https://homigon.harvoxx.com",
-    },
-    {
-      id: 8,
-      img: "/images/moviefreak.png",
-      title: "MovieFreak",
-      desc: "Built with React, Tailwind, HTML",
-      github: "https://github.com/Lesuuh/moviefreak",
-      link: "https://m-freak.netlify.app",
-    },
-    {
-      id: 9,
-      img: "/images/shop.co.png",
-      title: "Shop.co",
-      desc: "Built with React, Tailwind",
-      github: "https://github.com/Lesuuh/shop.co.git",
-      link: "https://shopnownow.netlify.app/",
+      github: "https://github.com/Lesuuh/legit-kitchen",
+      link: "https://legit-kitchen.netlify.app/",
     },
   ];
 

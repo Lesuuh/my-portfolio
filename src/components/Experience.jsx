@@ -8,11 +8,6 @@ export const Experience = () => {
       company: "Homigon - Harvoxx Tech Hub, Portharcourt",
       changeBg: true,
     },
-    // {
-    //   duration: "2022 - 2023",
-    //   position: "Chief Technology Officer ",
-    //   company: "Homigon",
-    // },
   ];
   return (
     <div>
