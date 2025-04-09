@@ -95,15 +95,15 @@ export const ProfileCard = ({ darkTheme }) => {
             <p className="font-bold">Portharcourt, Nigeria</p>
           </div>
         </div>
-        <a href="/src/assets/_1LesuuhNewCV.pdf" download>
-          <button
-            onClick={() => alert("Resume currently not available")}
-            className="btn-download rounded-xl py-2 font-bold flex items-center justify-center gap-2 text-white"
-          >
-            <MdOutlineFileDownload className="text-2xl" />
+        <button
+          onClick={() => alert("Resume currently not available")}
+          className="btn-download rounded-xl py-2 font-bold flex items-center justify-center gap-2 text-white"
+        >
+          <MdOutlineFileDownload className="text-2xl" />
+          <a href="/src/assets/_1LesuuhNewCV.pdf" download>
             Download Resume
-          </button>
-        </a>
+          </a>
+        </button>
       </div>
     </div>
   );
