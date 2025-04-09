@@ -11,8 +11,7 @@ import profilePicture from "/images/IMG_7026-min.png";
 import { MdOutlineFileDownload, MdOutlinePhoneIphone } from "react-icons/md";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
-
-export const ProfileCard = ({darkTheme}) => {
+export const ProfileCard = ({ darkTheme }) => {
   const githubRepo = "https://github.com/Lesuuh";
   const facebook = "https://facebook.com/lesuuh.uehkabari";
   const linkedin = "https://www.linkedin.com/in/lesuuh/";
@@ -96,13 +95,15 @@ export const ProfileCard = ({darkTheme}) => {
             <p className="font-bold">Portharcourt, Nigeria</p>
           </div>
         </div>
-        <button
-          onClick={() => alert("Resume currently not available")}
-          className="btn-download rounded-xl py-2 font-bold flex items-center justify-center gap-2 text-white"
-        >
-          <MdOutlineFileDownload className="text-2xl" />
-          Download Resume
-        </button>
+        <a href="/src/assets/_1LesuuhNewCV.pdf" download>
+          <button
+            onClick={() => alert("Resume currently not available")}
+            className="btn-download rounded-xl py-2 font-bold flex items-center justify-center gap-2 text-white"
+          >
+            <MdOutlineFileDownload className="text-2xl" />
+            Download Resume
+          </button>
+        </a>
       </div>
     </div>
   );
