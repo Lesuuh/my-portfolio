@@ -1,17 +1,19 @@
 export const Skills = () => {
   const skillsData = [
     "React.JS",
-    "Tailwind",
+    "Tailwindcss",
     "JavaScript",
     "HTML5",
     "CSS3",
     "Git",
-    "Figma",
+    "Typescript",
+    "Zustand",
   ];
 
   const softSkillsData = [
     "Time Management",
-    "Mentorship",
+    "Collaboration",
+    "Problem Solving",
     "Communication",
     "Flexibility",
   ];

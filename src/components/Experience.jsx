@@ -4,7 +4,7 @@ export const Experience = () => {
   const ExpData = [
     {
       duration: "2022 - 2023",
-      position: "Frontend Web Developer",
+      position: "Frontend Web Developer Intern",
       company: "Homigon - Harvoxx Tech Hub, Portharcourt",
       changeBg: true,
     },
