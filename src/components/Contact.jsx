@@ -12,7 +12,7 @@ export const Contact = () => {
           <LuPhoneCall className="text-red text-xl" />
           <div>
             <h3 className="font-bold">Phone:</h3>
-            <p className="font-medium">+2349075605471</p>
+            
             <p className="font-medium">+2349067252273</p>
           </div>
         </div>
