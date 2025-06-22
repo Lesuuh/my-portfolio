@@ -33,7 +33,7 @@ export const ProfileCard = ({ darkTheme }) => {
       <h3
         className={`ralewayfont text-white mt-2 text-xl md:text-xl lg:text-2xl font-bold`}
       >
-        Ueh-Kabari Lesuuh
+        Lesuuh Ueh-Kabari
       </h3>
       <p className="ralewayfont text-white text-base font-medium">
         Frontend Developer
@@ -97,14 +97,14 @@ export const ProfileCard = ({ darkTheme }) => {
         </div>
 
         {/* Download Resume Button */}
-        <a
+        {/* <a
           href="/public/_1LesuuhNewCV.pdf"
           download
           className="btn-download rounded-xl py-2 font-bold flex items-center justify-center gap-2 text-white"
         >
           <MdOutlineFileDownload className="text-2xl" />
           Download Resume
-        </a>
+        </a> */}
       </div>
     </div>
   );
