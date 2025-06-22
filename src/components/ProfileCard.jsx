@@ -14,7 +14,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 export const ProfileCard = ({ darkTheme }) => {
   const githubRepo = "https://github.com/Lesuuh";
   const facebook = "https://facebook.com/lesuuh.uehkabari";
-  const linkedin = "https://www.linkedin.com/in/lesuuh/";
+  // const linkedin = "https://www.linkedin.com/in/lesuuh/";
   const twitter = "https://twitter.com/UKLesuuh";
   return (
     <div
@@ -47,14 +47,14 @@ export const ProfileCard = ({ darkTheme }) => {
         >
           <FaFacebookF className="text-[#1877F2]" />
         </a>
-        <a
+        {/* <a
           href={linkedin}
           target="_blank"
           rel="noopener noreferrer"
           className="w-[50px] h-[50px] bg-bkg3 hover:bg-bkg flex justify-center items-center rounded-xl"
         >
           <FaLinkedinIn className="text-[#0077B5]" />
-        </a>
+        </a> */}
         <a
           href={twitter}
           target="_blank"
